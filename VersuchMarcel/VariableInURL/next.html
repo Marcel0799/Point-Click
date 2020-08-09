@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>NEXT</title>
+
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+	<div style="width:200px; height: 100px;  background-color: cyan;"> 
+		<a id = "x" href="index.html?wert=11">
+			<button type="button" >
+				<p> ZURUECK </p>	
+			</button>
+		</a>
+	</div>
+
+
+	<div id = "Testfeld">
+
+	</div>
+
+        <script>
+        	var loca = window.location.href;
+		var punkt = loca.search(/wert.+/);
+		var money = parseInt(loca.charAt(punkt+5) + loca.charAt(punkt+6)) ;
+
+		if(money >= 0) {
+			document.getElementById("x").href="index.html?wert=" + (money+1) ;
+		}
+
+		document.getElementById("Testfeld").innerHTML = money;	
+
+        </script>
+</body>
+</html>
+

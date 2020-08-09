@@ -1,0 +1,115 @@
+  <!-- ToDo: Anklickfunktion im Kindergartem mit der WurdeAmtEinsBestande() Funktion erweitern Hol dir den Antrag erst vs KLar dein Kind ist angemeldet -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href= "cssDatein/stylesheet.css">
+	<script  type="text/javascript" src="JavaSkript.js"></script>
+	<meta charset="utf-8" />
+</head>
+
+<body>
+	<div id="wrapper">
+
+		<h1>Homes</h1>
+
+		<img src="images/HomeAlleAmTisch.png" style="position:absolute" />
+
+
+
+
+
+  <!-- ________________________________________________  Tür ____________________________________________________ -->
+
+		<div id="zurMutter">
+			<a id="zurMutterA">
+				<button onclick="nextPage('zurMutterA' , 'Kinderzimmer')">
+					<p> Schlafzimmer </p>
+				</button>
+			</a>
+		</div>
+
+
+		<div id="zurStadt">
+			<a id="zurStadtA">
+				<button onclick="nextPage('zurStadtA' , 'Stadt1')">
+					<p> Exit </p>
+				</button>
+			</a>
+		</div>
+
+
+
+
+
+
+  <!--- ________________________________________________ SPRECHEN ________________________________________________________________ --> 
+
+		<div id="ansprechen">
+			<a>
+				<button onclick="ansprechFunction()">
+					<p> Ansprechen </p>
+				</button>
+			</a>
+		</div>
+
+
+
+		<div id="sprechblase">
+
+			<img id="sprechblaseBild" src="images/Sprechblase.png"
+				style="position:relative; height:100%; width: 100%; top: -100px; left: 100px; z-index: -10;" />
+
+			<div>
+				 <font >
+
+					<p id="textHome" style="z-index: 30"> </p>
+					
+				</font>
+			</div>
+		</div>
+
+			<!--- ________________________________________________ Geld ________________________________________________________________ --> 
+
+			<div id = "GeldDisplay" style="right: 0px ; bottom: 0px; height: 200px ; width: 300px; position: absolute; ">
+                <img src="images/geld.png" style="left: 0 ;  height: 200px; width:200px;" />
+    
+                <div id = "zeigeGeld"  style="right: 0; bottom: 25px;  height: 125px; width: 100px; position: absolute;">
+                        
+                </div>
+    
+            </div>
+
+
+
+
+		<script>
+			var text1 = ["", "Guten Morgen", "Mach dich fertig du <br>musst den Anmeldeantrag <br>für den Kindergarten abholen",
+				"für den Antrag musst <br>du zum Amt in Bezirk 2", "Dannach kannst du Tom in <br> den Kindergarten bringen"];
+			var zaehler = 1;
+
+			geldAnzeigen();
+
+			function ansprechFunction() {
+				if (zaehler == text1.length) {
+					zaehler = 0;
+				}
+				if(zaehler == 0){
+					document.getElementById("sprechblaseBild").style="position:relative; height:100%; width: 100%; top: -100px; left: 100px; z-index: -10;";
+				} else{
+				    document.getElementById("sprechblaseBild").style="position:relative; height:100%; width: 100%; top: -100px; left: 100px; z-index: 20;";
+			    }
+				document.getElementById("textHome").innerHTML = text1[zaehler];
+				zaehler++;
+			}
+
+		</script>
+
+	</div>
+</body>
+
+</html>

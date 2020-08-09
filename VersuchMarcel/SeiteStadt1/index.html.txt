@@ -1,0 +1,77 @@
+@page
+
+@{
+    ViewData["Title"] = "Game";
+}
+
+<!--
+Beginn des Html    
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>z-index</title>
+    <!--
+        hier werden das ausehen der unten entstehenden Objekte festgelegt
+    -->
+        <style>
+
+            main {
+                position: relative;
+            }
+
+            a {
+                position: absolute;
+                padding: 1.5em;
+            }
+
+            #hintergrundBild {
+                position:static;
+            }
+
+            #KnopfHaus {
+                background-color: rgba(128, 0, 0, 1);
+                left: 0em;
+                top: 0em;
+                padding:10em;
+                padding-left: 15em;
+                z-index: 10;
+            }
+
+            #KnopfKirche {
+                background-color: rgba(0, 0, 128, 1);
+                left: 10em;
+                top: 0em;
+                padding:10em;
+                padding-left: 15em;
+                z-index: 15;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Stadt1</h1>
+        <main>
+            <!--
+            Hintergrundbild    
+            -->
+            <img src="~/NeuBilder/Stadt 1Schnellfassung mit roten Pfeilen.png" style="position:static; z-index:30"  />
+
+            <!--
+            Knopf nach Hause -> Rot     
+            -->
+            <a href="/HomeT1" id="KnopfHaus"
+               class:"button">
+            </a>
+
+            <!--
+            Knopf Zur Kirche -> Blau    
+            -->
+            <a href="/KircheT1" id="KnopfKirche"
+                class:"button">
+            </a>
+
+        </main>
+    </body>
+    </html>
+

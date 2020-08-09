@@ -1,0 +1,130 @@
+<html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href =  "cssDatein/stylesheet.css">
+	<script  type="text/javascript" src="JavaSkript.js"></script>
+    <meta charset="utf-8">
+    <title>Stadt</title>
+</head>
+<body>
+	<div id = "wrapper"> 
+        <h1> Stadt1</h1>
+		
+	
+		<!--
+        Hintergrundbild    
+         -->
+         <img src="images/Stadt_1.png" style="position:absolute;"/>
+		
+		 
+		 
+
+
+
+
+		 
+		 
+		 <!--
+        Knopf nach Hause -> Rot     
+         -->
+        	<div id = "home" >
+			<a id="homeA">
+				<button onclick="nextPage('homeA','Home1')"style="background-color: transparent;border: transparent ;position: absolute;color: blue  "> 
+					<p> Home </p>
+				</button>
+			</a>
+		</div>
+
+
+
+
+        <!--
+        Knopf Zur Kirche -> Blau    
+        -->
+		<div id = "kirche" >
+			<a id="kircheA">
+				<button onclick="nextPage('kircheA','Kirche1')"style="background-color: transparent;border: transparent ;position: absolute;color: blue  "> 
+					<p> Kirche </p>
+				</button>
+			</a>
+		</div>
+			
+
+	
+
+
+		<div id = "StadtzuSpiel2" >
+			<a id="StadtzuSpiel2A">
+				<button onclick="nextPage('StadtzuSpiel2A','Minispiel2/Minispiel2')"style="background-color: transparent ;border: 1px solid red;position: absolute;color:black  "> 
+					<p>  </p>
+				</button>
+			</a>
+		</div>
+
+
+
+		<!----
+		<div id = "StadtzuSpiel2" >
+			<a href="Minispiel2/Minispiel2.html">
+				
+			</a>
+		</div>
+       --->
+
+
+		<div id = "kindergarten" >
+			<a id="kindergartenA">
+				<button onclick="nextPage('kindergartenA', 'Kindergarten1');"style="background-color: transparent;border: transparent ;position: absolute;color: blue  "> 
+					<p> Kinder-<br>garten  </p>
+				</button>
+			</a>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div id = "pfeilLinksZurStadt">
+			<a id="Stadt2LinksA">
+				<button onclick="nextPage('Stadt2LinksA','Stadt2')" >
+					<p> <img src="images/Pfeil_L.png" ; width="100%" ; height="100%"/> </p>	
+				</button>
+			</a>
+		</div>
+
+
+
+		<div id = "pfeilRechtsZurStadt">
+			<a id="Stadt2RechtsA">
+				<button onclick="nextPage('Stadt2RechtsA','Stadt2')">
+					<p> <img src="images/Pfeil_R.png" ; width="100%" ; height="100%"/> </p>	
+				</button>
+			</a>
+		</div>
+
+		<!--- ________________________________________________ Geld ________________________________________________________________ --> 
+
+		<div id = "GeldDisplay" style="right: 0px ; bottom: 0px; height: 200px ; width: 300px; position: absolute; ">
+			<img src="images/geld.png" style="left: 0 ;  height: 200px; width:200px;" />
+				
+			<div id = "zeigeGeld"  style="right: 0; bottom: 25px;  height: 125px; width: 100px; position: absolute;">
+									
+			</div>
+				
+		</div>
+				
+		<script>
+			geldAnzeigen();
+		</script>
+	
+
+
+		
+    </div>
+</body>
+</html>

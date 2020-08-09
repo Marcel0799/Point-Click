@@ -1,0 +1,77 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href= "../cssDatein/stylesheet.css">
+	<script  type="text/javascript" src="../JavaSkript.js"></script>
+	<meta charset="utf-8">
+	<title>MiniSpiel1</title>
+</head>
+
+<body>
+	<h2>Spiel 1</h2>
+
+	<div id="wrapper">
+
+		<p>Repariere die Tür um zum Schalter zu kommen</p>
+
+		<img src="../images/MiniSpiel1/Eingabe A 1.png" style="position:absolute;" />
+
+
+		<div id = "Neustart" >
+			<a id="NeustartA">
+				<button onclick="nextPage('NeustartA','../Minispiel1/KastenOffenA')" style="width: 25px; height: 25px;background-color: transparent;border: transparent ;"> 
+					<p>  </p>
+				</button>
+			</a>
+		</div>
+
+
+
+		<div id = "rot" >
+			<a id="rotA">
+				<button onclick="nextPage('rotA','eingabeA2')" style="width: 25px; height: 25px;background-color: transparent;border: transparent ;" > 
+					<p>  </p>
+				</button>
+			</a>
+		</div>
+
+
+
+		<div id = "gruen" >
+			<a id="gruenA">
+				<button onclick="nextPage('gruenA','fehler A')"  style="width: 25px; height: 25px;background-color: transparent;border: transparent ;"> 
+					<p>  </p>
+				</button>
+			</a>
+		</div>
+
+
+
+		<div id = "gelb" >
+			<a id="gelbA">
+				<button onclick="nextPage('gelbA','fehler A')"  style="width: 25px; height: 25px;background-color: transparent;border: transparent ;"> 
+					<p>  </p>
+				</button>
+			</a>
+		</div>
+	<!--- ________________________________________________ Geld ________________________________________________________________ --> 
+	
+		<div id = "GeldDisplay" style="right: 0px ; bottom: 0px; height: 200px ; width: 300px; position: absolute; ">
+			<img src="../images/geld.png" style="left: 0 ;  height: 200px; width:200px;" />
+			
+			<div id = "zeigeGeld"  style="right: 0; bottom: 25px;  height: 125px; width: 100px; position: absolute;">
+									
+			</div>
+			
+		</div>
+				
+		<script>
+			geldAnzeigen();
+		</script>
+
+
+	</div>
+
+</body>
+
+</html>

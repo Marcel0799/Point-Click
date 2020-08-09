@@ -1,0 +1,502 @@
+*{ margin : 0px;
+	padding : 0px;
+}
+
+h1 {
+	text-align: center;
+	color:green;
+}
+
+h2 {
+	text-align : center;
+	color: black;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+}
+/*
+button {
+	width: 100px;
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid red;
+	position: absolute;
+	color:black
+
+}
+*/
+  
+.buddon {
+	width : 100%;
+	height: 100%;
+	background-color: transparent ;
+	border: 1px solid transparent ;
+	color: transparent;
+
+}
+
+
+main {
+     position: relative;
+}
+
+a {
+   position: absolute;
+   padding: 1.5em;
+}
+
+
+
+
+#wrapper {
+		width: 80%;
+		margin-left : 100px;
+		z-index : 20;
+		}
+
+
+
+
+
+
+
+
+
+
+#pfeilLinksZurStadt {
+			border: none;
+			background-color: transparent;
+			outline: none;
+			top: 700px;
+			left: 150px;
+			position: absolute;
+		}
+		
+#pfeilRechtsZurStadt {
+			border: none;
+			background-color: transparent;
+			outline: none;
+			top: 700px;
+			left: 1250px;
+			position: absolute;
+		}
+		
+
+
+
+/* _____________________________________________________________ Minispielmenü ____________________________________________________________      */
+
+#minispiel  {
+	    left: 100%;
+		background-color: transparent;
+		position: relative;
+		color: #000;
+		font-family: papyrus;
+}
+
+#zuSpiel1 {
+	height: 50px; 
+	width: 100px; 
+	background-color: transparent; 
+	border: 1px solid transparent;
+	top : 50px;
+	left: 720px;
+	position: relative;
+	color: transparent
+		}
+
+#zuSpiel2 {
+	height: 50px; 
+	width: 100px; 
+	background-color: transparent; 
+	border: 1px solid transparent;
+	top : 100px;
+	left: 720px;
+	position: relative;
+	color: transparent
+		}
+
+#zuSpiel3 {
+	height: 50px; 
+	width: 100px; 
+	background-color: transparent; 
+	border: 1px solid transparent;
+	top : 150px;
+	left: 720px;
+	position: relative;
+	color: transparent
+		}
+		
+#zuSpiel4 {
+	height: 50px; 
+	width: 100px; 
+	background-color: transparent; 
+	border: 1px solid transparent;
+	top : 200px;
+	left: 720px;
+	position: relative;
+	color: transparent
+		}
+		
+		
+		
+
+
+
+                             /* ______________________________________ Spiel1 ______________________________________      */
+
+							        #kastenoffen{
+								        height: 600px; 
+								        width: 1000px; 
+								        border: none;
+								        background-color: transparent;
+								        outline: none;
+								        top : 100px;
+								        left: 200px;
+								        position: relative;
+							            }
+
+                                    #spielButton {
+	                                    width: 50px; 
+										height : 50px ;
+    									background-color: Transparent;
+										background-repeat:no-repeat;
+										border: none;
+		                                }
+		
+									#rot {
+								    	top: 385px;
+									    left: 580px;
+								     	position: absolute;		
+										}
+
+									#gelb {	
+								    	top: 387px;	
+     								    left: 780px;
+								        position: absolute;
+	
+	        							}
+	
+									#gruen {	
+									   top:    387px  ;	
+						     		   left:   890px  ;
+         							   position: absolute;
+		                                }
+											
+									#Neustart {	
+									   top:    575px  ;	
+									   left:   1050px  ;
+									   position: absolute;
+		                                }
+		
+									#fuellen1 {	
+									   top:    495px  ;	
+							    	   left:   445px  ;
+        							   position: absolute;	
+		                                }
+		
+                                    #fuellen2 {	
+									   top:    405px  ;	
+							    	   left:   865px  ;	
+	     							   position: relative;	
+	                                   	}
+	
+									#pfeil {
+									    height: 50px; 								
+										width: 100px; 								
+										border: none;								
+										background-color: transparent;								
+										outline: none;							
+										top : 600px;							
+										left: 80px;										
+										position: absolute;
+										   
+										   }
+		
+
+
+                             /* ______________________________________ Spiel2 ______________________________________      */
+
+							 #Apfel1{
+								height: 90px; 
+								width: 90px; 
+								border: transparent;
+								background-color:transparent;
+								outline: transparent;
+								top : 60px;
+								left: 805px;
+								z-index: 100;
+								position: absolute;
+								}
+								#Apfel2{
+									height: 90px; 
+									width: 90px; 
+									border: transparent;
+									background-color: transparent;
+									outline: transparent;
+									top : 200px;
+									left: 755px;
+									z-index: 100;
+									position: absolute;
+									}
+									#Apfel3{
+										height: 90px; 
+										width: 90px; 
+										border: transparent;
+										background-color:transparent;
+										outline: transparent;
+										top : 180px;
+										left: 605px;
+										z-index: 100;
+										position: absolute;
+										}	
+/* _____________________________________________________________ Stadt 1 ____________________________________________________________      */		
+		
+	
+
+#StadtzuSpiel2{	
+	height: 50px; 
+	width: 100px; 
+	background-color: transparent;
+	top : 370px;
+	left: 810px;
+	border: 1px solid transparent;
+	position: absolute;
+	color:black
+}
+
+#kirche{
+	height: 100px; 
+	width: 100px; 
+	background-color: transparent;
+	top : 195px;
+	left: 707px;
+	border: 1px solid transparent;
+	position: absolute;
+	color:black
+}	
+
+#home{
+	height: 50px; 
+	width: 100px; 
+	background-color: transparent;
+	top : 515px;
+	left: 1050px;
+	border: 1px solid transparent;
+	position: absolute;
+	color:black
+}
+
+#kindergarten{	
+	height: 50px; 
+	width: 100px; 
+	background-color: transparent;
+	top : 550px;
+	left: 320px;
+	border: 1px solid transparent;
+	position: absolute;
+	color:black
+}
+
+
+                              /* ______________________________________ Home ______________________________________      */
+											
+							        #zurMutter {
+	                                   height: 50px; 
+	                                   width: 100px; 
+	                                   background-color: transparent; 
+	                                   border: 1px solid transparent;
+	                                   top: 15px;
+	                                   left:560px;
+	                                   position: relative;
+	                                   color: transparent;
+                        	           z-index : 10;
+                                        }
+
+
+									#zurStadt {
+										height: 50px; 
+										width: 100px; 
+										background-color: transparent; 
+										border: 1px solid transparent;
+										top : 500px;
+										left: 50px;
+										position: relative;
+										color: transparent
+     									}
+										
+								    #ansprechen {
+	                					height: 50px; 
+										width: 100px; 
+										background-color: transparent;										
+										top : 500px;
+										left: 520px;										
+										border: 1px solid transparent;
+										position: absolute;
+										color:black
+										}
+										
+									#zurueck{	
+										height: 50px; 
+										width: 100px; 
+										background-color: transparent;
+										top : 0px;
+										left: 240px;
+										border: 1px solid transparent;
+                                        position: relative;
+										color:black
+										}
+
+									#textHome{
+										bottom:250px; 
+										left: 150px; 
+										position:relative;
+										z-index: 12;
+										size:"3" ;
+										}
+
+
+                               /* ______________________________________ Kirche ______________________________________      */
+
+                                    #stadt{
+		                                height: 50px; 	
+										width: 100px; 	
+										background-color: transparent;	
+										top : 250px;	
+										left: 170px;		
+										border: 1px solid transparent;	
+										position: relative;	
+										color:black
+}
+                               /* __________________________________ Kindergarten ____________________________________     */
+
+
+							        #kindergaertnerinAnsprechen {
+								         top: 400px;								
+										 left: 450px;	
+										 position: relative;
+							            }
+																				
+									#textKindergarten{							
+										top: -100px; 							
+										left: 260px; 						
+										position:relative;
+							           }
+							
+                                    #exit {
+	                                    top: 700px;	
+										left: 1150px;	
+										position: relative;
+}
+                                    #sprechblase{
+	                                    height: 200px;	
+										width: 300px;	
+										position: absolute;
+}
+
+
+/* _____________________________________________________________ Stadt 2 ____________________________________________________________      */	
+
+
+#vonStadt2ZuAmt { 
+	top:  425px;
+	left: 665px;
+	position: relative;
+}
+
+
+
+
+
+
+                               /* ______________________________________ Amt ______________________________________      */
+
+							   
+							                       #vonAmtZuStadt2{
+	
+													      height: 50px; 	
+														  width: 100px; 
+														  background-color: transparent;	
+														  top : 500px;	
+														  left: 1150px;	
+														  border: 1px solid transparent;	
+														  position: relative;	
+														  color:black
+                                                          }
+
+                                                    #stromkastenzu{
+	                                                       height: 50px; 
+	                                                       width: 100px; 
+	                                                       border: none;
+                                                           background-color: transparent;
+                                                           outline: none;
+	                                                       top : 480px;
+	                                                       left: 540px;
+	                                                       position: relative;
+                                                          }
+
+													#ansprechenAmt {
+														   height: 50px; 
+														   width: 100px; 
+														   background-color: transparent;										
+														   top : 700px;
+														   left: 138px;										
+														   border: 1px solid transparent;
+														   position: absolute;
+														   color:black
+															}
+
+
+
+
+
+
+/* _____________________________________________________________ Müll ? ____________________________________________________________      */
+
+
+#KnopfKirche {
+    background-color: rgba(0, 0, 128, 1);
+    left: 10em;
+    top: 0em;
+    padding:10em;
+    padding-left: 15em;
+    z-index: 15;
+    }
+
+.bilder {
+		position : relative;
+		text-align : center;
+		}
+
+#invisibleButton {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+}
+
+#Anfang {
+	left: 45%;
+	background-color: transparent;
+	position: relative;
+	color: #000;
+	font-family: papyrus
+		}
+
+#KnopfHaus {
+			background-color: rgba(128, 0, 0, 1);
+			left: 0em;
+			top: 0em;
+			padding:10em;
+			padding-left: 15em;
+			z-index: 10;
+		   }
+		
+#hintergrundBild {
+	    position:static;
+}
+
+
+
+
